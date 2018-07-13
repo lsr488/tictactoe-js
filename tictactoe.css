@@ -1,0 +1,80 @@
+body{
+	background-color: steelblue;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+h1 {
+	letter-spacing: 0.35rem;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0;
+	padding: 0;	
+}
+
+ol {
+	text-align: left;
+}
+
+span {
+	color: darkslategray;
+	font-size: 200%;
+}
+
+input {
+	text-align: center;
+	margin: 15px 0 0 0;
+}
+
+.container {
+	text-align: center;
+
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border: 3px solid steelblue;
+	background-color: white;
+	margin: 3px 0px;
+	display: inline-block;
+
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+.num {
+	color: lightsteelblue;
+}
+
+.display {
+	text-align: center;
+	color: darkorange;
+	line-height: 30px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 38px;
+	margin: 20px auto;
+ }
+
+.done {
+	text-decoration: line-through;
+	color: darkslategray;
+}
+/*
+h3 {
+	display: none;
+}
+
+ol {
+	display: none;
+}
+*/

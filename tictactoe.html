@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe!</title>
+  <link rel="stylesheet" type="text/css" href="tictactoe.css">
+</head>
+<body>
+<h1>Tic Tac Toe</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="square" id="0"><span class="num">1</span></div>
+		<div class="square" id="1"><span class="num">2</span></div>
+		<div class="square" id="2"><span class="num">3</span></div>
+	</div>
+	<div class="row">
+		<div class="square" id="3"><span class="num">4</span></div>
+		<div class="square" id="4"><span class="num">5</span></div>
+		<div class="square" id="5"><span class="num">6</span></div>
+	</div>
+	<div class="row">
+		<div class="square" id="6"><span class="num">7</span></div>
+		<div class="square" id="7"><span class="num">8</span></div>
+		<div class="square" id="8"><span class="num">9</span></div>
+	</div>
+</div>
+
+<div class="display">
+	<p></p>
+</div>
+
+<h3>Making it Interactive</h3>
+<ol>
+	<li>input field to generate N x N squares!</li>
+	<li>make it so it works with N x N squares!</li>
+	<li>make a version that has you play against the computer!</li>
+	<li class="done">click on squares n shit!</li>
+	<li class="done">make it so you can't click on things after it's game over</li>
+	<li class="done">display who's turn it is</li>
+	<li class="done">declare a winner as soon as someone wins, not after all spaces are filled</li>
+	<li class="done">refactor le code</li>	
+	<li class="done">only accept locations 1 - 9</li>
+		<ol>
+			<li class="done">fix the uncaught error when location beyond range is input</li>
+		</ol>
+	<li class="done">set up board skeleton on webpage</li>
+		<ol>
+		<li class="done">actually, Color Game used divs and containers, so let's try that first</li>
+		</ol>
+	<li class="done">add jQuery to the html</li>
+	<li  class="done">create input field</li>
+	<li class="done">use input field instead of window prompt for user input</li>
+	<li class="done">update input field text based on who's turn it is</li>
+	<li class="done">get board to update with each turn taken (there will be spans)</li>
+	<li class="done">have the winner/cat's game text display at end of game</li>
+	<li class="done">figure out how to not let keypresses override other keypresses</li>
+	<li class="done">make it so gameTurn doesn't ioncremement if a player needs to select a new location</li>
+	<li class="done">figure out how to disallow additional keypresses when the game is over</li>
+	<li class="done">make it so having no text in each square doesn't make it move out of alignment</li>
+	<li class="done">fix spacing for "pick a location 1 - 9"</li>
+	<li class="done">fix spacing for input field</li>
+	<li class="done">fix spacing for display stripe</li>
+	<li class="done">make the heading look pretty</li>
+	<li class="done">make the rest of it look pretty</li>
+	<li class="done">after display says "invalid move," make it clear after the play makes a valid move</li>
+</ol>
+
+<h3>Setting up Game Logic</h2>
+<ol>
+<li class="done">load the game</li>
+<li class="done">load the board</li>
+<li class="done">ask user to choose a location</li>
+<li class="done">computer chooses an empty location</li>
+<li class="done">convert user input into index (subtract 1)</li>
+<li class="done">update board with choices</li>
+<li class="done">display new board</li>
+<li class="done">repeat turn-taking until board is empty</li>
+<li class="done">compare board to win conditions and declare a winner</li>
+	<ol>
+		<li class="done">for each winCond</li>
+		<li class="done">check each set of 3 in the game array</li>
+		<li class="done">set = winCond[0] == game[set[0/1/2]]</li>
+	</ol>
+<li class="done">check for a winner when the board is full</li>
+<li class="done" class="done">return winner</li>
+<li class="done">allow game reset</li>
+</ol>
+
+<script type="text/javascript" src="tictactoe.js"></script>
+</body>
+</html>
